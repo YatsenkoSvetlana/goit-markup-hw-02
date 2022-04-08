@@ -1,0 +1,63 @@
+.root {
+  --primary-text-color:#757575;
+  --title-text-color:#212121;
+  --accent:#2196f;
+  
+}
+
+
+body {
+  color: #f5f4fa;
+  background-color: #757575;
+}
+
+/* Лого */
+.logo-top {
+  color: #2196f3;
+}
+.logo-top-second {
+  color: #212121;
+}
+
+/* Шапка*/
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/*Hero*/
+.hero-title {
+
+color: #2F303A;
+}
+/* Section */
+.section-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em
+color: #212121;
+}
+
+/* Features */
+.features .title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
