@@ -1,0 +1,100 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+  --primary-bg-color--: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: ;
+}
+
+/* Лого */
+.logo-top {
+  color: var(--accent);
+}
+.logo-top-second {
+  color: var(--title-text-color);
+}
+
+/* Шапка*/
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+.site-nav .link.current {
+  color: var(--accent);
+}
+button {
+  font-family: inherit;
+}
+.button-filter {
+  cursor: pointer;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  text-align: center;
+
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+button:hover {
+  background-color: var(--primary-bg-color--);
+}
+button:focus {
+  background-color: var(--accent);
+}
+
+
+/* Футер*/
+.footer {
+  background-color: #2F303A;
+}
+.logo-top, .logo-top-second {
+  font-family: 'Raleway'; cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.decoration {
+  text-decoration: none;
+}
+.logo-top {
+  color:var(--accent);
+  text-decoration: none;
+}
+.logo-top-second {
+  color:var(--primary-bg-color);
+  text-decoration: none;
+}
+.logo-top:hover{
+  color:var(--primary-bg-color);
+} .logo-top-second:hover {
+  color:var(--accent);
+}
+.link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+  color:#FFFFFF;
+   text-decoration: none;
+}
