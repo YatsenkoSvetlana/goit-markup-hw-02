@@ -1,22 +1,22 @@
-.root {
+:root {
   --primary-text-color:#757575;
   --title-text-color:#212121;
-  --accent:#2196f;
-  
+  --accent: #2196f3;
+
 }
 
 
 body {
-  color: #f5f4fa;
-  background-color: #757575;
+  color:var(--primary-text-color);
+  background-color:;
 }
 
 /* Лого */
 .logo-top {
-  color: #2196f3;
+  color:var(--accent);
 }
 .logo-top-second {
-  color: #212121;
+  color:var(--title-text-color);
 }
 
 /* Шапка*/
@@ -26,18 +26,22 @@ body {
 
 /* Навигация */
 .site-nav .link {
-  color: #212121;
+  color:var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color:var(--accent);
 }
 
 /*Hero*/
 .hero-title {
 
 color: #2F303A;
+.button {
+  color: ffffff;
+  background: #2196F3;
 }
+
 /* Section */
 .section-title {
 font-family: 'Roboto';
@@ -47,10 +51,11 @@ font-size: 36px;
 line-height: 1,17;
 text-align: center;
 letter-spacing: 0.03em
-color: #212121;
+color:var(var(--title-text-color));
 }
 
-/* Features */
+
+/* Features  Преимущества в работе */
 .features .title {
 font-family: 'Roboto';
 font-style: normal;
@@ -59,5 +64,22 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color:var(--title-text-color);
+}
+
+/*Чем мы занимаемся*/
+.section-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--title-text-color); 
+}
+
+/* Команда */
+.title {
+  color:var(--title-text-color);
 }
