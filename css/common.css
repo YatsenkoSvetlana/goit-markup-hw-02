@@ -13,13 +13,25 @@ body {
 }
 
 /* Лого */
-.logo-top, .logo-top-second {
+.logo-top, {
   font-family: 'Raleway'; cursive;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color:var(--accent);
 }
+
+.logo {
+  font-family: 'Raleway';
+  cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color)
+}
+
 .decoration {
   text-decoration: none;
 }
@@ -27,13 +39,10 @@ body {
   color:var(--accent);
   text-decoration: none;
 }
-.logo-top-second, {
-  color:var(--title-text-color);
-  text-decoration: none;
-}
+
 .logo-top:hover{
   color:var(--title-text-color);
-} .logo-top-second:hover {
+} .logo:hover {
   color:var(--accent);
 }
 
