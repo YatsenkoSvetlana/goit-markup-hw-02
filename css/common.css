@@ -113,13 +113,6 @@ li {
   color:var(--primary-text-color);
 }
 
- 
-
-  
-
-
-
-
 /* Футер*/
 .footer {
   background-color: #2F303A;
@@ -139,11 +132,11 @@ li {
   text-decoration: none;
 }
 .logo-top-second {
-  color:var(--primary-bg-color);
+  color:var(--primary-bg-color--);
   text-decoration: none;
 }
 .logo-top:hover{
-  color:var(--primary-bg-color);
+  color:var(--primary-bg-color--);
 } .logo-top-second:hover {
   color:var(--accent);
 }
