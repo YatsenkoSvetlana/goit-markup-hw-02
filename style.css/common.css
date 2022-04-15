@@ -2,13 +2,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent:#2196F3;
-  --primary-bg-color--: #ffffff;
+  --primary-bg-color: #ffffff;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color:var(--primary-text-color);
-  background-color: #E5E5E5;
+  background-color:var(--primary-bg-color);
   letter-spacing: 0.03em;
 }
 
@@ -78,11 +78,11 @@ button {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: #212121;
+  color:var(--title-text-color);
 }
 
 button:hover {
-  background-color: var(--primary-bg-color--);
+  background-color: var(--primary-bg-color);
 }
 button:focus {
   background-color: var(--accent);
@@ -98,16 +98,14 @@ li {
  font-size: 18px;
  line-height: 2;
  letter-spacing: 0.06em;
- color: #212121;
+ color:var(--primary-text-color);
 }
 .item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  color: #212121;
+  color:var(--primary-text-color);
 }
 .paragraphly {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color:var(--primary-text-color);
@@ -132,24 +130,20 @@ li {
   text-decoration: none;
 }
 .logo-top-second {
-  color:var(--primary-bg-color--);
+  color:var(--primary-bg-color);
   text-decoration: none;
 }
 .logo-top:hover{
-  color:var(--primary-bg-color--);
+  color:var(--primary-bg-color);
 } .logo-top-second:hover {
   color:var(--accent);
 }
 .link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress {
-  color:#FFFFFF;
+  color:var(--primary-bg-color)
    text-decoration: none;
 }
